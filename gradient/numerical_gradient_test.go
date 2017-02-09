@@ -1,4 +1,4 @@
-package neural_network
+package gradient
 
 import (
 	"testing"

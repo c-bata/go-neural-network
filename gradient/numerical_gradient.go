@@ -1,4 +1,4 @@
-package neural_network
+package gradient
 
 type funcType func([]float64) float64
 
