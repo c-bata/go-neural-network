@@ -18,12 +18,14 @@ Loss Functions
 
 Layers
 
+* [ ] Multiplication Layer
+* [ ] Add Layer
 * [ ] ReLU Layer
 * [ ] Sigmoid Layer
 * [ ] Affine Layer
 * [ ] Softmax Layer
 * [ ] Softmax with Loss Layer
-* [ ] Convolutional Layer
+* [ ] Convolution / Pooling Layer
 
 Solver for weight optimization
 
