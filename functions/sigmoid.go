@@ -2,7 +2,6 @@ package functions
 
 import "math"
 
-
 func Sigmoid(x float64) float64 {
 	const (
 		Overflow  = 1.0239999999999999e+03

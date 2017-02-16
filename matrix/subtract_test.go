@@ -12,7 +12,6 @@ func TestSubtract1d(t *testing.T) {
 	}
 }
 
-
 func TestSubtract2d(t *testing.T) {
 	x := Subtract2d([][]float64{{1, 2}, {3, 4}}, [][]float64{{1, 2}, {3, 4}})
 	if x[0][0] != 0 {

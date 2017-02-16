@@ -12,7 +12,6 @@ func TestScalar1d(t *testing.T) {
 	}
 }
 
-
 func TestScalar2d(t *testing.T) {
 	x := Scalar2d([][]float64{{1, 2}, {3, 4}}, 3)
 	if x[1][0] != 9 {

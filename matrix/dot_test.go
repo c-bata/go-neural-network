@@ -11,7 +11,7 @@ func TestDot(t *testing.T) {
 		t.Fatal("Dot() should return 2x2 arrays.")
 	}
 
-	if c[0][0] != 1 * 1 + 2 * 3 + 3 * 5 {
+	if c[0][0] != 1*1+2*3+3*5 {
 		t.Fatal("c[0][0] should be 22(= 1*1 + 2*3 + 3*5).")
 	}
 }

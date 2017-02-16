@@ -1,6 +1,5 @@
 package matrix
 
-
 func Subtract1d(a []float64, b []float64) []float64 {
 	l := len(a)
 	c := make([]float64, l)
@@ -10,7 +9,6 @@ func Subtract1d(a []float64, b []float64) []float64 {
 	}
 	return c
 }
-
 
 func Subtract2d(a [][]float64, b [][]float64) [][]float64 {
 	l := len(a)

@@ -2,7 +2,6 @@ package gradient
 
 type funcType func([]float64) float64
 
-
 func NumericalGradient(f funcType, x [][]float64) [][]float64 {
 	var h float64 = 0.0001
 	grad := make([][]float64, len(x))

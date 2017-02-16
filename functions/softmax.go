@@ -2,7 +2,6 @@ package functions
 
 import "math"
 
-
 func SoftMax(x []float64) []float64 {
 	var max float64 = x[0]
 	for _, n := range x {
