@@ -14,11 +14,11 @@ Loss Functions
 
 * [x] Mean Squared Error
 * [x] Cross Entropy Error
-* [ ] log-likelihood
+* [ ] Log Likelihood
 
 Layers
 
-* [ ] Multiplication Layer
+* [x] Multiplication Layer
 * [ ] Add Layer
 * [ ] ReLU Layer
 * [ ] Sigmoid Layer
@@ -39,3 +39,7 @@ For avoiding over-fitting
 * [ ] Dropout
 * [ ] Weight decay
 
+Networks
+
+* [x] SimpleNet
+* [ ] Two Layer Network
