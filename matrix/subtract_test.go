@@ -1,8 +1,8 @@
 package matrix
 
 import (
-	"testing"
 	"reflect"
+	"testing"
 )
 
 func TestSubtract1d(t *testing.T) {

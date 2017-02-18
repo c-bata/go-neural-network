@@ -1,8 +1,8 @@
 package matrix
 
 import (
-	"testing"
 	"reflect"
+	"testing"
 )
 
 func TestAdd1d(t *testing.T) {

@@ -9,4 +9,3 @@ func TestArgMax(t *testing.T) {
 		t.Errorf("ArgMax() want %#v got %#v.", 1, ArgMax(a))
 	}
 }
-
