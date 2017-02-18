@@ -14,13 +14,11 @@ Loss Functions
 
 * [x] Mean Squared Error
 * [x] Cross Entropy Error
-* [ ] Log Likelihood
 
 Layers
 
 * [x] Multiplication Layer
-* [ ] Add Layer
-* [ ] ReLU Layer
+* [x] ReLU Layer
 * [ ] Sigmoid Layer
 * [ ] Affine Layer
 * [ ] Softmax Layer
