@@ -11,7 +11,8 @@ type SimpleNet struct {
 }
 
 func (s SimpleNet) Predict(x []float64) []float64 {
-	return matrix.Dot1x2(x, s.Weight)
+	y, _ := matrix.Dot1x2(x, s.Weight)
+	return y
 }
 
 func (s SimpleNet) Loss(x []float64, t []float64) float64 {
